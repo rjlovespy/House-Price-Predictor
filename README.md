@@ -22,11 +22,12 @@ the model predicts the price of such a house at Boston. Further measures such as
 ## **Output** 
 
 ### **Method-1 (Recommended): Using Executable File**
-To see the GUI, just download the GUI.exe file and double right click on it  
+1. Step-1: Download the GUI.exe file and
+2. Double right click on it  
 ### **Method-2: Using Python File**
-1. Step-1: Download Pre_processor.joblib, Model.joblib, dragon.ico, setup.py and GUI.py
+1. Step-1: Download these 4 files namely-Pre_processor.joblib, Model.joblib, dragon.ico and GUI.py
 2. Step-2: Create a new folder and place all these files inside it
-3. Step-3: Open the powershell or command prompt inside this folder
-4. Step-4: Enter "pip install cx_Freeze"
-5. Step-5: Enter "pip install tk scikit-learn joblib pandas numpy"
-6. Step-6: Enter "python setup.py build"
+3. Step-3: Open powershell or command prompt inside this folder
+4. Step-4: Enter "pip install tk pandas numpy joblib"
+5. Step-5: Enter "code ." to open VS Code with this folder
+6. Step-6: Just Run the python script 
