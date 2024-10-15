@@ -1,0 +1,24 @@
+Model-1: LinearRegression()
+
+The Model is not Overfitted
+Mean RMSE in 1000 $ is 5.030437102767305
+Standard Deviation of RMSE in 1000 $ is 1.0607661158294832
+RMSE corresponding to each of the 10 folds in 1000 $ are: [4.21674442 4.26026816 5.1071608  3.82881892 5.34093789 4.3785611
+ 7.47384779 5.48226252 4.14885722 6.0669122 ]
+
+Model-2: DecisionTreeRegressor()
+
+The Model is Overfitted
+Mean RMSE in 1000 $ is 4.189668138889124
+Standard Deviation of RMSE in 1000 $ is 0.7893064464865
+RMSE corresponding to each of the 10 folds in 1000 $ are: [3.94031694 5.44663691 5.31385671 3.74986179 4.05394869 3.3465654
+ 5.23285295 3.83581804 3.1686748  3.80814916]
+
+
+Model-3: RandomForestRegressor()
+
+The Model is not Overfitted
+Mean RMSE in 1000 $ is 3.286278870066647
+Standard Deviation of RMSE in 1000 $ is 0.7009339354988949
+RMSE corresponding to each of the 10 folds in 1000 $ are: [2.84617979 2.95558079 4.41722863 2.4976568  3.24156493 2.72217993
+ 4.80314058 3.21172352 3.09801689 3.06951684]
