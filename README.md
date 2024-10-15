@@ -15,6 +15,18 @@ This Tkinter GUI basically uses an ML model that is trained by Random Forest Reg
 11. PTRATIO - pupil-teacher ratio by town
 12. B - 1000(Bk - 0.63)(Bk - 0.63) where Bk is the proportion of blacks by town
 13. LSTAT - percentage of lower status of the population
-14. MEDV - Median value of owner-occupied homes in 1000 dollars
 
 the model predicts the price of such a house at Boston. Further measures such as Stratified Shuffling with respect to CHAS, Data Preprocessing using SimpleImputer and StandardScaler inside a common Pipeline, Cross Validation for Evaluation, etc. have been taken while selecting the most appropriate model.
+
+
+## **Output** 
+
+### **Method-1 (Recommended): Using Executable File**
+To see the GUI, just download the GUI.exe file and double right click on it  
+### **Method-2: Using Python File**
+1. Step-1: Download Pre_processor.joblib, Model.joblib, dragon.ico, setup.py and GUI.py
+2. Step-2: Create a new folder and place all these files inside it
+3. Step-3: Open the powershell or command prompt inside this folder
+4. Step-4: Enter "pip install cx_Freeze"
+5. Step-5: Enter "pip install tk scikit-learn joblib pandas numpy"
+6. Step-6: Enter "python setup.py build"
