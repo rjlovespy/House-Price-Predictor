@@ -1,6 +1,6 @@
 # **House-Price-Predictor**
 
-This Tkinter GUI basically uses an ML model that is trained by Random Forest Regressor algorithm to predict the house prices at Boston. The Boston Housing Dataset is used for the training and testing of the model that contains 506 rows and 14 columns. Based on the following 13 features:
+A Tkinter GUI basically using an ML model that is trained by Random Forest Regressor algorithm to predict the house prices at Boston. The Boston Housing Dataset is used for the training and testing of the model that contains 506 rows and 14 columns. Based on the following 13 features:
 
 1. CRIM - per capita crime rate by town
 2. ZN - proportion of residential land zoned for lots over 25,000 sq.ft.
