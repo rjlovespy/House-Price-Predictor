@@ -1,0 +1,61 @@
+                                                                                             Markdown for Jupyter Notebook and GitHub Documentation
+
+1. Headings:
+Use the number sign (#) followed by a blank space for notebook titles and section headings:
+# for titles
+## for major headings
+### for subheadings
+#### for 4th level subheadings
+
+2. Emphasis:
+Use the following code to emphasize text:
+Bold text: __string__ or **string**
+Italic text: _string_ or *string*
+
+3. Mathematical symbols:
+Surround mathematical symbols with a dollar sign ($), for example
+$ mathematical symbols $
+
+4. Line breaks:
+Sometimes markdown doesn’t make line breaks when you want them. To force a linebreak, use the following code: <br>
+
+5. Indenting:
+Use the greater than sign (>) followed by a space, for example
+> Text that will be indented when the Markdown is rendered.
+Any subsequent text is indented until the next carriage return.
+
+6. Bullets:
+To create a circular bullet point, use one of the following methods. Each bullet point must be on its own line.
+A hyphen (-) followed by one or two spaces, for example: - Bulleted item
+A space, a hyphen (-) and a space, for example: - Bulleted item
+An asterisk (*) followed by one or two spaces, for example: * Bulleted item
+
+7. Numbered lists:
+To create a numbered list, enter 1. followed by a space
+
+8. Internal links:
+To link to a section within your notebook, use the following code:
+[Section title](#section-title)
+
+9. External links:
+To link to an external site, use the following code:
+[Link](http://a.com)
+
+10. Adding image from an external website:
+![Image](http://url/a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

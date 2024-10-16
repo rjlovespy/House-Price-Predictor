@@ -1,0 +1,95 @@
+# First of all, create an empty repository from Github website having the same name as your project folder
+
+"""
+1. It basically keeps track of the changes made in the repository
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git init
+Reinitialized existing Git repository in E:/temp/.git/
+
+""" 
+2. To see the current status of your repository such as name of branch-main or master, the untracked files 
+which are ready for adding and the commits you performed if any
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Lec_1_Minimization.py
+        Lec_2_Interpolation.py
+        Lec_3_Curve_Fit.py
+        Lec_4_Derivative.py
+        Lec_5_Integration.py
+        Lec_6_Coupled_ODEs.py
+        Lec_7_FFT.py
+        Lec_8_Special_Function.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+"""
+3. This is to add all files at once in the repository
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git add .
+
+"""
+4. Before committing, just ensure there are no untracked files
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Lec_1_Minimization.py
+        new file:   Lec_2_Interpolation.py
+        new file:   Lec_3_Curve_Fit.py
+        new file:   Lec_4_Derivative.py
+        new file:   Lec_5_Integration.py
+        new file:   Lec_6_Coupled_ODEs.py
+        new file:   Lec_7_FFT.py
+        new file:   Lec_8_Special_Function.py
+
+
+"""
+5. This command basically commits all the tracked files with a certain message(-m)
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git commit -m "Sample Commit"
+[master (root-commit) c13b02a] Sample Commit
+ 8 files changed, 365 insertions(+)
+ create mode 100644 Lec_1_Minimization.py
+ create mode 100644 Lec_2_Interpolation.py
+ create mode 100644 Lec_3_Curve_Fit.py
+ create mode 100644 Lec_4_Derivative.py
+ create mode 100644 Lec_5_Integration.py
+ create mode 100644 Lec_6_Coupled_ODEs.py
+ create mode 100644 Lec_7_FFT.py
+ create mode 100644 Lec_8_Special_Function.py
+
+"""
+6. Tell the location of the repository where you want to push your files in Github
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git remote add rjlovespy https://github.com/rjlovespy/temp.git
+
+"""
+7. This will finally upload all the files/folders of any size(even >100Mb as well) via pushing or uploading(-u)
+"""
+RISHIKESH JHA@rjlovesap MINGW64 /e/temp (master)
+$ git push -u rjlovespy master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 6.07 KiB | 690.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rjlovespy/temp.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'rjlovespy/master'.
