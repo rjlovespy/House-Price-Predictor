@@ -24,7 +24,7 @@ the model predicts the price of such a house at Boston. Further measures such as
 ### **Method-1 (Recommended): Using Executable File**
 * Step-1: Download the build dolder
 * Step-2: Locate the GUI.exe file
-* STep-3: Double right click on it  
+* Step-3: Double right click on it  
 ### **Method-2: Using Python File**
 * Step-1: Download these 4 files namely-Pre_processor.joblib, Model.joblib, dragon.ico and GUI.py
 * Step-2: Create a new folder and place all these files inside it
