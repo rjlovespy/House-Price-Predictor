@@ -22,7 +22,7 @@ the model predicts the price of such a house at Boston. Further measures such as
 ## **Output** 
 
 ### **Method-1 (Recommended): Using Executable File**
-1. Step-1: Download the GUI.exe file and
+1. Step-1: Download the GUI.exe file
 2. Steep-2: Double right click on it  
 ### **Method-2: Using Python File**
 1. Step-1: Download these 4 files namely-Pre_processor.joblib, Model.joblib, dragon.ico and GUI.py
