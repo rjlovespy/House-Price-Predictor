@@ -22,12 +22,12 @@ the model predicts the price of such a house at Boston. Further measures such as
 ## **Output** 
 
 ### **Method-1 (Recommended): Using Executable File**
-1. Step-1: Download the GUI.exe file
-2. Steep-2: Double right click on it  
+*Step-1: Download the GUI.exe file
+*Step-2: Double right click on it  
 ### **Method-2: Using Python File**
-1. Step-1: Download these 4 files namely-Pre_processor.joblib, Model.joblib, dragon.ico and GUI.py
-2. Step-2: Create a new folder and place all these files inside it
-3. Step-3: Open powershell or command prompt inside this folder
-4. Step-4: Enter "pip install tk pandas numpy joblib"
-5. Step-5: Enter "code ." to open VS Code with this folder
-6. Step-6: Just Run the python script 
+*Step-1: Download these 4 files namely-Pre_processor.joblib, Model.joblib, dragon.ico and GUI.py
+*Step-2: Create a new folder and place all these files inside it
+*Step-3: Open powershell or command prompt inside this folder
+*Step-4: Enter "pip install tk pandas numpy joblib"
+*Step-5: Enter "code ." to open VS Code with this folder
+*Step-6: Just Run the python script 
